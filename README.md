@@ -32,7 +32,7 @@ This code repository involves analysis of data of CTD measurements from The West
 - create a virtual enviroment 
 - install all dependencies in  `requirements.txt`
 - run main file `app.py`
-- waiting until the data is processed and loaded into sqlite database. look out for   `"✅✅ Data load complete ✅✅"` in terminal
+- wait until the data is processed and loaded into sqlite database. look out for   `"✅✅ Data load complete ✅✅"` in terminal
 - open running application at `localhost:5000` to test with inbuilt swagger UI or test with other API testing tools
 
 
