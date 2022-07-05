@@ -1,4 +1,4 @@
-# Data Manipulation and analysis with python 
+# Data Manipulation and Analysis With Python 
 ----
 This code repository involves analysis of data of CTD measurements from The Western Channel Observatory (WCO)  marine biodiversity reference site.
 
