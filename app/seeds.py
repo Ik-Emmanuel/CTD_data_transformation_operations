@@ -9,6 +9,7 @@ database_exists = os.path.exists(DB_URL)
 
 
 def create_db():
+    """ Checks if a database already exists and create one if not""" 
     if not database_exists:
         print("⏳Creating database...")
         try:
@@ -23,6 +24,7 @@ def create_db():
 
 
 def load_data():
+    """ This function reads, transforms and loads the data from the text file into a data store"""
     data = pd.read_table("CTDF.txt", delimiter=" ", on_bad_lines="skip")
     data = data.iloc[1:, :]  # remove first row
     data.columns = data.columns.str.lower()

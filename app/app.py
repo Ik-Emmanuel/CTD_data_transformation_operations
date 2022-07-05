@@ -25,6 +25,7 @@ db.init_app(app)
 
 @app.route("/")
 def index():
+    """Home route used to load swagger-UI"""
     return redirect("/swagger-ui")
 
 

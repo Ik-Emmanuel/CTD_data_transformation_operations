@@ -16,6 +16,7 @@ class DataSchema(Schema):
 
 
 def paginate_result(request, data_list):
+    """A function used to paginate data results"""
     page = request.args.get("page", 1, type=int)
     start = (page - 1) * 20
     end = start + 20
