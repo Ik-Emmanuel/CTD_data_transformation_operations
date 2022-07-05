@@ -47,7 +47,25 @@ This code repository involves analysis of data of CTD measurements from The West
         "to_date": "2021-07-05T20:19:09.730Z"
     }
 
-
+- Sameple  response
+		{
+			"cruise": "WCO",
+			"datetime": "Mon, 07 Jan 2002 12:00:00 GMT",
+			"density": 1027.0428,
+			"depth": 8.0,
+			"fluorescence": 2.045,
+			"id": 81,
+			"lat": 50.25174,
+			"lon": -4.22056,
+			"oxygen": null,
+			"par": null,
+			"salinity": 35.2217,
+			"station": "L4",
+			"temperature": 10.6775,
+			"transmission": null,
+			"turbidity": null,
+			"type": "c"
+		},
 ```
 
 # Endpoints 
