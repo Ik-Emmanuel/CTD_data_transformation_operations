@@ -47,7 +47,7 @@ This code repository involves analysis of data of CTD measurements from The West
         "to_date": "2021-07-05T20:19:09.730Z"
     }
 
-- Sameple  response
+- Sample  API response
 		{
 			"cruise": "WCO",
 			"datetime": "Mon, 07 Jan 2002 12:00:00 GMT",
